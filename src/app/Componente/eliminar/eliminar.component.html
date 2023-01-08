@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+          <h2>Eliminar Pais</h2>
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="form-group">
+                    <label>ID</label>
+                    <input type="number" class="form-control" name="id"[(ngModel)]="pais.id">
+                </div>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" name="nombre"[(ngModel)]="pais.nombre">
+                </div>
+                <div class="form-group">
+                    <label>Capital</label>
+                    <input type="text" class="form-control" name="capital"[(ngModel)]="pais.capital">
+                </div>
+                <div class="form-group">
+                    <label>NumH</label>
+                    <input type="number" class="form-control" name="numH"[(ngModel)]="pais.numH">
+                </div>
+                <div class="form-group">
+                    <label>Idioma</label>
+                    <input type="text" class="form-control" name="idioma"[(ngModel)]="pais.idioma">
+                </div>
+                <div class="form-group">
+                    <label>Moneda</label>
+                    <input type="text" class="form-control" name="moneda"[(ngModel)]="pais.moneda">
+                </div>
+                <div class="form-group">
+                    <label>Continente</label>
+                    <input type="text" class="form-control" name="continente"[(ngModel)]="pais.continente">
+                </div>
+                <button class="btn btn-primary" (click)="Eliminar()">Eliminar</button>
+            </form>
+        </div>
+    </div>
+</div>
